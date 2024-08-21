@@ -1,0 +1,1 @@
+{"uuid":"f33627d6-23a3-4a67-a57a-396fb51cb6e7","name":"Calculator Automation","children":["f9d968a6-f6ff-436f-b535-d89a640e0719"],"befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1724270746213,"stop":1724270759879}],"afters":[],"start":1724270746163,"stop":1724270774351}
