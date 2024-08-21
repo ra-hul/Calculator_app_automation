@@ -18,17 +18,17 @@ public class Setup {
         caps.setCapability("platformVersion","11");
         caps.setCapability("appPackage","com.google.android.calculator");
         caps.setCapability("appActivity","com.android.calculator2.Calculator");
-        caps.setCapability("app","user.dir"+"src/test/resources/calculator.apk");
+        caps.setCapability("app",System.getProperty("user.dir"+"src/test/resources/calculator.apk"));
         caps.setCapability("automationName","UiAutomator2");
 
-        URL url = new URL("http://127.0.0.1.4723");
+        URL url = new URL("http://127.0.0.1:4723");
 
         driver = new AndroidDriver(url,caps);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
         return driver;
     }
 
-    @AfterTest
+//    @AfterTest
     public void quitApp(){
         driver.quit();
 
