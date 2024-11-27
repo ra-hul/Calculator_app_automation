@@ -41,4 +41,9 @@ Need to acknowledge about those:
 
 
 ## Video Record the automation process:
-**[Watch the Video](https://drive.google.com/your-link-here)**
+
+
+
+https://github.com/user-attachments/assets/02ef5733-26f0-42e6-86aa-2d09ffa8da4f
+
+
